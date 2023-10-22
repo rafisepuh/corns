@@ -36,11 +36,13 @@
     "lint": "eslint .",
     "test": "mocha ./test/test*.js --reporter spec",
     "test-coverage": "istanbul cover ./node_modules/.bin/_mocha -- test/test.js test/test-ratelimit.js --reporter spec"
+      "files": [
     "lib/",
     "test/",
     "Procfile",
     "demo.html",
     "server.js"
+      ]
   },
   "engines": {
     "node": ">=0.10.0"
